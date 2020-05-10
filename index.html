@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="@idth=device-width,initial scale=1"/>
+	<title>Awebz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Archivo+Black|Josefin+Sans|Righteous&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.toggle').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
+	
+	<!--Beep sound-->
+	<script>
+		var bleep = new Audio();
+		bleep.src = "img/menu_beep.wav";
+		var bleep2 = new Audio();
+		bleep2.src = "img/book_them.mp3";
+		/*var tr_beep = new Audio();
+		tr_beep.src = "beep-21.mp3";*/
+	</script>
+
+
+</head>
+<body>
+	<div class="menubar">
+		<section>
+			<header>
+				<a class="logo"><img src=""></a>
+				<a class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+				<ul>
+					<li><a href="#C1" onmouseenter="bleep.play()">Start</a></li>
+					<li><a href="#C2" onmouseenter="bleep.play()">Services</a></li>
+					<li><a href="#C3" onmouseenter="bleep.play()">Knowledge</a></li>
+					<li><a href="#C4" onmouseenter="bleep.play()">About</a></li>
+					<li><a href="#C5" onmouseenter="bleep.play()">Contect</a></li>
+				</ul>
+			</header>
+		</section>
+	</div>
+<div class="background4">
+	<!--Text On Front Page-->
+	<div class="wallpaper1">
+		<div class="auto_text">
+			<h4 id="C1">Start/></h4>
+			<h1>Hi, my name is <b>AKHIL ANKOLA</b></h1>
+			<h2>I design and develop <span></span></h2>
+			<h4>Let me Show You</h4>
+		</div>
+	</div>
+
+	<br><br><br><br>
+	<!--Multiplw Card-->
+	<div class="wallpaper2">
+		<div class="cardcontainer">
+			<div class="card_starting_text">
+				<h3 id="C2">        Things I Can Do For You/></h3>
+			</div><br><br><br>
+			<div class="service1" data-tilt data-tilt-max="10">
+				<div class="service_logo1">
+					<h1 class="textcolor">WEB<br>DEVELOPMENT</h1>
+				</div>
+			</div>
+			<div class="service2" data-tilt data-tilt-max="10">
+				<div class="service_logo2">
+					<h1 class="textcolor">APP<br>DEVELOPMENT</h1>
+				</div>
+			</div>
+			<div class="service3" data-tilt data-tilt-max="10">
+				<div class="service_logo3">
+					<h1 class="textcolor">WEB<br>DESIGN</h1>
+				</div>
+			</div>
+			<div class="service4" data-tilt data-tilt-max="10">
+				<div class="service_logo4">
+					<h1 class="textcolor">UI/UX<br>DESIGN</h1>
+				</div>
+			</div>
+			<div class="service5" data-tilt data-tilt-max="10">
+				<div class="service_logo5">
+					<h1 class="textcolor">GRAPHICS<br>DESIGN</h1>
+				</div>
+			</div>
+			<div class="service6" data-tilt data-tilt-max="10">
+				<div class="service_logo6">
+					<h1 class="textcolor">SOFTWARE<br>DEVELOPMENT</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--My Software Knowledge-->
+
+		<div class="knowledge_starting_text">
+			<h2 id="C3">Work  on  this  softwares</h2>
+		</div>
+		<div class="myknowledge">
+			<div class="myknowledgecard" >
+				<div class="knowledgeimgBox" onmouseenter="bleep2.play()">
+					<img src="img/wordpress_img.png" width="100%" height="100%px">
+				</div>
+				<div class="details">
+					<h2><center>wordpress</center></h2>
+						<p><center>WordPress is a content management system written in PHP paired with a MySQL, MariaDB, or SQLite database.</center></p>
+						<a href="https://wordpress.com/create/?utm_source=google&utm_campaign=google_wpcom_search_brand_desktop_in_en&utm_medium=paid_search&keyword=wordpress&creative=288220459116&campaignid=683204332&adgroupid=31861711621&matchtype=e&device=c&network=g&targetid=kwd-313411415&gclid=Cj0KCQiApt_xBRDxARIsAAMUMu8RNNk6ko2KDUieJDnnrFrExEHvUfUGldGmXUJSJxZgUE8nW-eW4LgaAicxEALw_wcB&gclsrc=aw.ds"><center>Read More</center></a>
+				</div>
+			</div>
+
+			<div class="myknowledgecard">
+				<div class="knowledgeimgBox"  onmouseenter="bleep2.play()">
+					<img src="img/androidstudio_img.png" width="100%" height="100%">
+				</div>
+				<div class="details" width="200px">
+					<h2><center>Android Studio</center></h2>
+						<p><center>Android Studio is the official integrated development environment for Google's Android operating system</center></p>
+						<a href="https://developer.android.com/studio"><center>Read More</center></a>
+				</div>
+			</div>
+
+			<div class="myknowledgecard">
+				<div class="knowledgeimgBox" onmouseenter="bleep2.play()">
+					<img src="img/visualstudio_img.png" width="100%" height="100%">
+				</div>
+				<div class="details">
+					<h2><center>Visual Studio</center></h2>
+						<p><center>Microsoft Visual Studio is an integrated development environment from Microsoft.</center></p>
+						<a href="https://visualstudio.microsoft.com/"><center>Read More</center></a>
+				</div>
+			</div>
+
+			<div class="myknowledgecard">
+				<div class="knowledgeimgBox" onmouseenter="bleep2.play()">
+					<img src="img/dreamweare.png" width="100%" height="100%">
+				</div>
+				<div class="details">
+					<h2><center>Dreamweaver</center></h2>
+						<p><center>Adobe Dreamweaver is one of many HTML editors - List of HTML editors used to create Web sites. It is used to edit HTML, PHP, Javascript, CSS and related files and can also be used to upload them to one's Web server.</center></p>
+						<a href="https://www.adobe.com/in/products/dreamweaver.html"><center>Read More</center></a>
+				</div>
+			</div>
+
+			<div class="myknowledgecard">
+				<div class="knowledgeimgBox"  onmouseenter="bleep2.play()">
+					<img src="img/pycharm.png" width="100%" height="100%">
+				</div>
+				<div class="details" width="200px">
+					<h2><center>PyCharm</center></h2>
+						<p><center>PyCharm is an integrated development environment (IDE) used in computer programming, specifically for the Python language. It is developed by the Czech company JetBrains.</center></p>
+						<a href="https://www.jetbrains.com/pycharm/"><center>Read More</center></a>
+				</div>
+			</div>
+
+			<div class="myknowledgecard">
+				<div class="knowledgeimgBox" onmouseenter="bleep2.play()">
+					<img src="img/visualstudio_code.png" width="100%" height="100%">
+				</div>
+				<div class="details">
+					<h2><center>Visual Studio Code</center></h2>
+						<p><center>Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. </center></p>
+						<a href="https://code.visualstudio.com/"><center>Read More</center></a>
+				</div>
+			</div>
+
+		</div>
+	<!--About Me section-->
+	<div class="knowledge_starting_text">
+			<h2 id="C4">     About Me/></h2>
+	</div>
+	
+
+		<div class="informationtable">
+			<table border="0">
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">01</td>
+					<td class="table_class2">         class</td>
+					<td class="table_class_name_only">Akhil Ankola</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">02</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">// I'm ambitious and love new challenges. </td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">03</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">//My vast variety of skills is continuously expanding.</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">04</td>
+					<td></td>
+					<td class="table_class3">constructor()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">05</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">	this.name = akhil_ankola</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">06</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">	this.email = akhilankol07@gmail.com</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">07</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">08</td>
+					<td></td>
+					<td class="table_class3">education()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">09</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">return[</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">10</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">{_'2016-2020' : Bachelor of Engineering_}</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">11</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">{ '2014-2016' : Higher Secondary }</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">12</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">{ '2014' : Secondary }</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">13</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4" align="left">]</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">14</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">15</td>
+					<td></td>
+					<td class="table_class3">skills()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">16</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">return[</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers" valign="top">17</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">{_'HTML' , 'css' , 'Java' , ,JavaScript' , 'jquery' , 'PHP' , 'C' , 'C++' , 'Bootstrap' , '.NET' , 'ReactJs' , 'Wordpress' , 'MySql' , 'Photoshop' , 'Illustrator' , 'After Effects' , 'UI/UX' , 'Chart.js' , 'Android Studio' , 'Visual Studio' , 'Visual Studio Code' , 'Canva' , 'C#'_}</td>
+				</tr onmouseenter="tr_beep.play()">
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">18</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4" align="left">]</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">19</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">20</td>
+					<td></td>
+					<td class="table_class3">Hobbies()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">21</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">[_' Painting ' , ' Graphic Designing ' , ' cricket ' , ' chess '_]</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">22</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">23</td>
+					<td></td>
+					<td class="table_class3">Extra()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">24</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">[_Graphics Designer in Aavishkar_2k18 Collage Event_],</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">25</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class5">[_Voleantear in Change Vadodara Champain_]</td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">26</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">27</td>
+					<td></td>
+					<td class="table_class3">Website()</td>
+					<td class="table_class4">{</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">28</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="table_class6"><a href="http://akhilankola.ezyro.com/"><b><i>akhilankola.ezyro.com</i></b></a></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">29</td>
+					<td></td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+				</tr>
+				<tr onmouseenter="tr_beep.play()">
+					<td class="numbers">29</td>
+					<td></td>
+					<td class="table_class4">}</td>
+					<td></td>
+					<td></td>
+				</tr>
+
+			</table>
+		</div>
+	
+		<div class="knowledge_starting_text">
+				<h2 id="C5">     Contect Me/></h2>
+		</div>
+		<!--Social Icone foe Contect-->
+		<div class="social_icon">
+				<a href="https://www.facebook.com/akhil.ankola.332?ref=bookmarks">
+					<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+				</a>
+			
+			
+				<a href="https://www.instagram.com/akhilankola07/">
+					<i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+				</a>
+			
+			
+				<a href="https://www.linkedin.com/in/akhil-ankola-70b805141/">
+					<i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+				</a>
+			
+			
+				<a href="https://mail.google.com/mail/u/0/#inbox">
+					<i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+				</a>
+
+				<a href="http://akhilankola.ezyro.com/">
+					<i class="fa fa-2x fa-info-circle" aria-hidden="true"></i>
+				</a>
+
+				
+		</div>
+
+		<div class="last_text">
+			<h4>-Made  By Akhil S. Ankola -2020</h4>
+		</div>
+	
+	<!--JS code for tilt images, 3d effect-->
+	<script src="https://unpkg.com/vanilla-tilt@1.7.0/lib/vanilla-tilt.js"></script>
+	<script src="tilt.jquery.min.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
